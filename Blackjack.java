@@ -20,7 +20,8 @@ public class Blackjack {
         int dealerWinCount = 0;
         int dealerCard;
         int tieCount = 0;
-
+        
+        //runs continuously until the user inputs a 4 into the playerChoice variable
         while (playerChoice != 4) {
             System.out.println("START GAME #" + gameCount);
             System.out.println("");
