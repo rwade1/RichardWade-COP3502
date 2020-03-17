@@ -15,6 +15,7 @@ public class Calculator {
         int choice;
         choice = scnr.nextInt();
         String result = "The result of the operation is ";
+        // evaluates the input of the user and performs a specified operation
         if(choice == 1){
             System.out.print(result);
             System.out.print(num1 + num2);
